@@ -28,7 +28,7 @@ obj-$(CONFIG_CPU_FREQ_GOV_ABYSSPLUGV2)  += cpufreq_abyssplugv2.o
 obj-$(CONFIG_CPU_FREQ_GOV_HYPER)        += cpufreq_hyper.o
 obj-$(CONFIG_CPU_FREQ_GOV_DARKNESS)     += cpufreq_darkness.o
 obj-$(CONFIG_CPU_FREQ_GOV_DANCEDANCE)   += cpufreq_dancedance.o
->>>>>>> 01b4ce8... Add CPU Governors
+
 
 # CPUfreq cross-arch helpers
 obj-$(CONFIG_CPU_FREQ_TABLE)		+= freq_table.o
