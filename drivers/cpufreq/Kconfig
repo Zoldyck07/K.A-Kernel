@@ -254,7 +254,7 @@ config CPU_FREQ_DEFAULT_GOV_DARKNESS
 	bool "darkness"
 	select CPU_FREQ_GOV_DARKNESS
 
->>>>>>> 01b4ce8... Add CPU Governors
+
 endchoice
 
 config CPU_FREQ_GOV_PERFORMANCE
@@ -502,7 +502,7 @@ config CPU_FREQ_GOV_LAZY
 
 config CPU_FREQ_GOV_DARKNESS
 	tristate "'darkness' cpufreq policy governor"
->>>>>>> 01b4ce8... Add CPU Governors
+
 
 menu "x86 CPU frequency scaling drivers"
 depends on X86
